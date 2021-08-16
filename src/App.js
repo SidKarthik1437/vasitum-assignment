@@ -3,7 +3,7 @@ import { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import * as ROUTES from "./constants/routes"
 
-const Dashboard = lazy(() => import("./pages/dashboard"));
+const Login = lazy(() => import("./pages/login"));
 const notfound = lazy(() => import("./pages/not-found"));
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
           //New Pages 
 
           //End New Pages
-          <Route path={ROUTES.DASHBOARD} component={Dashboard} />
+          <Route path={ROUTES.LOGIN} component={Login} />
           <Route component={notfound} />
         </Switch>
       </Suspense>

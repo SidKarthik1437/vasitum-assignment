@@ -2,8 +2,8 @@ import Typist from "@jsasz/react-typist";
 
 export default function Login() {
   return (
-    <div className="flex flex-col z-10 w-full h-screen md:w-auto md:h-auto shadow-2xl rounded-lg bg-white">
-      <div className="bg-bg rounded-md m-5 mb-0 py-10 px-10 flex items-center justify-center">
+    <div className="flex flex-col z-10 w-full h-full md:w-auto md:h-auto shadow-2xl rounded-lg bg-white">
+      <div className="bg-bg rounded-md m-5 mb-0 py-10 px-5 md:px-10 flex items-center justify-center">
         <div className="text-white font-light text-xl select-none">
           Vasitum helps you find the perfect
           <Typist>

@@ -3,7 +3,7 @@ import "../styles/misc.css";
 
 const PC = () => (
   <>
-    <div className="flex relative w-full mx-auto max-w-screen overflow-y-hidden justify-center items-center h-screen hehe">
+    <div className="flex w-screen mx-auto overflow-y-hidden justify-center h-screen items-center hehe">
       <Login />
     </div>
     <div className="custom-shape-divider-bottom-1629129507">
@@ -25,7 +25,9 @@ const PC = () => (
 export default function login() {
   return (
     <div className="eh bg-bg">
-      <img src="https://vasitum.com/static/svg/logo.svg" alt="logo"/>
+      <img src="https://vasitum.com/static/svg/logo.svg" alt="logo"
+      className="h-14 px-20 md:px-5 md:pt-2"
+      />
       <PC />
     </div>
   );

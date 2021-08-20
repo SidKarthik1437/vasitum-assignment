@@ -37,7 +37,8 @@
     "setup": "node src/setup.js",
     "build:css": "postcss src/styles/tailwind.css -o src/styles/app.css",
     "watch:css": "postcss src/styles/tailwind.css -o src/styles/app.css --watch",
-    "react-scripts:start": "react-scripts start"
+    "react-scripts:start": "react-scripts start",
+    "react-scripts:build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
